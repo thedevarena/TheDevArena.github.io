@@ -1,0 +1,96 @@
+html, body{
+    color: white;
+    background-color: #252E37;
+    font-family: 'Numans', sans-serif;
+    height: 100%;
+  }
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .the{
+    color: #1EBD74;
+  }
+  
+  .dev{
+    color: #AB6BFD;
+  }
+  
+  .arena{
+    color: #EB5E29;
+  }
+  
+  .heading{
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 25px;
+    word-spacing: -0.2em;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .main h1{
+    word-spacing: -0.2em;
+    margin-top: -5px;
+    font-size: 35px;
+  }
+  
+  .desc{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 750px;
+    padding-top: 5px;
+  }
+  
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .join {
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 8px;
+  }
+  
+  .join:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin: 3px;
+    outline: none;
+  }
